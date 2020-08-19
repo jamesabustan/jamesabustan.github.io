@@ -72,6 +72,7 @@ input, select, textarea {
 	appearance: none;
 }
 
+
 /* Basic */
 
 	@-ms-viewport {
@@ -702,6 +703,12 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
+			}
+
+			.prof img{
+				width: 40%;
+				display: block;
+				margin: 2.5rem 0;
 			}
 
 		@media screen and (max-width: 736px) {
